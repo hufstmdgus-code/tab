@@ -1,0 +1,28 @@
+깃 설치후 이멜과 아이디 등록
+// 이메일 등록
+git config --global user.email "my_email@gmail.com"
+
+// 이름 등록
+git config --global user.name "my_name"
+출처: https://itconquest.tistory.com/entry/git-git-설치하기-이해하기 [개발자일지:티스토리]
+
+
+1. 깃 설치
+2. git init: (initialize)초기화하다의 약자로 깃의 구역으로 설정하는것
+3. 파일을 하나 만들었다고 가정(hello.txt)
+4. git add. :파일 기록전 임시 대기실 명령어 . 은 모든 폴더를 의미 (어떤 폴더만을 올리고 싶다면 git add hello.txt 로 써야함)
+5. git commit -m "~~~": 장부에 확정지어 저장 함, 어떤 작업을 했는지 ~~로 확인 가능
+6. git remote add origin (URL): 주소 연결
+7. git branch -M main: main으로 변경
+8. git push -u origin main: 실제 웹사이트에 푸쉬
+
+
+//
+git log: 어떤 커밋기록을 남겼는지 볼 수 있음 (고유 해시값, 주소값(?) 이 나옴)
+git checkout (주소값): 잠깐 보고오기
+git switch main (또는 git checkout main): 잠깐 보고 다시 돌아오기
+git reset --hard (주소값): 주소값부분으로 완전히 덮어쓰기
+git reflog: 삭제된 행동 자체까지 기록하는 장부가 존재
+
+
+
