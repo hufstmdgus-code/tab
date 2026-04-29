@@ -1,0 +1,140 @@
+#top{ 
+    display:flex;
+    flex-direction:row;
+    align-items: left; 
+    gap:120px;
+}
+
+#x{
+    padding-left:10px;
+}
+
+
+
+#mid{
+    display:flex;
+    flex-direction:row;
+    align-items: left;
+    gap:10px;
+}
+#mid2{
+    display:flex;
+    flex-direction:column;
+    align-items: left;
+    gap:8px;
+}
+#img{
+    width:50px;
+    height:40px;
+    padding:60px;
+    margin:15px;
+    border: 2px solid black;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+
+
+#downmid{
+    display:flex;
+    flex-direction:row;
+    align-items: left; 
+    gap:30px;
+}
+
+#play{
+    
+    width:100px;
+    height:50px;
+    margin:15px;
+    border:2px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heart{
+    
+    width:50px;
+    height:50px;    
+    border:2px solid black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plus{
+    
+    width:50px;
+    height:50px;  
+    border:2px solid black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+#bottom{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+}
+
+.T{
+    display: flex;
+    align-items: center;    
+    gap: 20px;
+
+}
+.t{
+    display: flex;
+    flex-direction: column;
+    align-items: left;   
+    
+}
+
+#red{
+    width:20px;
+    height:20px;
+    padding:20px;
+    margin:15px;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 10px;
+}
+#pink{
+    width:20px;
+    height:20px;
+    padding:20px;
+    margin:15px;
+    border: 2px solid black;
+    background-color: pink;
+    border-radius: 10px;
+}
+#blue{
+    width:20px;
+    height:20px;
+    padding:20px;
+    margin:15px;
+    border: 2px solid black;
+    background-color: blue;
+    border-radius: 10px;
+}
+#gray{
+    width:20px;
+    height:20px;
+    padding:20px;
+    margin:15px;
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 10px;
+}
+.s{
+    font-size: 13px;
+}

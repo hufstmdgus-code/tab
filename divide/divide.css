@@ -1,0 +1,54 @@
+*{
+    background-color:tomato;
+
+}
+
+#boxtop{
+    width: 15px;
+    height: 15px;
+    padding:20px;
+    border:3px solid white;
+    background-color: teal;
+    position: absolute;/*중앙정렬*/
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#boxmid{
+    width: 160px;
+    height: 10px;
+    padding:20px;
+    border:3px solid white;
+    border-style: dotted;
+    background-color: teal;
+    position: absolute;/*중앙정렬*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#boxbottom{
+    width: 15px;
+    height: 15px;
+    padding:20px;
+    border:3px solid white;
+    background-color: teal;
+    position: absolute;/*중앙정렬*/
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#box{
+    /*기본적으로block 크기*/
+    width: 200px;
+    height: 200px;
+    padding:20px;
+    border: 2px solid black;
+    background-color: wheat;
+    position: absolute;/*중앙정렬*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
