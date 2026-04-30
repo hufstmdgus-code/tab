@@ -12,8 +12,8 @@ git config --global user.name "my_name"
 3. 파일을 하나 만들었다고 가정(hello.txt)
 4. git add. :파일 기록전 임시 대기실 명령어 . 은 모든 폴더를 의미 (어떤 폴더만을 올리고 싶다면 git add hello.txt 로 써야함)
 5. git commit -m "~~~": 장부에 확정지어 저장 함, 어떤 작업을 했는지 ~~로 확인 가능
-6. git remote add origin (URL): 주소 연결
-7. git branch -M main: main으로 변경
+6. git remote add origin (URL): 주소 연결//한번만
+7. git branch -M main: main으로 변경//한번만
 8. git push -u origin main: 실제 웹사이트에 푸쉬
 
 
